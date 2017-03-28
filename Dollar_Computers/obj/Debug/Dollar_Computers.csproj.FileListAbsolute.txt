@@ -1,0 +1,13 @@
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\Dollar_Computers.exe.config
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\Dollar_Computers.exe
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\Dollar_Computers.pdb
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.csprojResolveAssemblyReference.cache
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.StartForm.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.Properties.Resources.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.csproj.GenerateResource.Cache
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.exe
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.pdb
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.OrderForm.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.ProductInfoForm.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.SelectForm.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.SplashForm.resources
