@@ -28,61 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.startButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.StartButton = new System.Windows.Forms.Button();
+            this.OpenSavedbutton = new System.Windows.Forms.Button();
             this.headLabel = new System.Windows.Forms.Label();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // startButton
+            // ExitButton
             // 
-            this.startButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.startButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.startButton.Location = new System.Drawing.Point(450, 425);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(141, 30);
-            this.startButton.TabIndex = 2;
-            this.startButton.Text = "START ORDER";
-            this.startButton.UseVisualStyleBackColor = false;
+            this.ExitButton.BackColor = System.Drawing.Color.DarkGray;
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ExitButton.Location = new System.Drawing.Point(460, 425);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(141, 30);
+            this.ExitButton.TabIndex = 2;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // button2
+            // StartButton
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(63, 425);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 30);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "START ORDER";
-            this.button2.UseVisualStyleBackColor = false;
+            this.StartButton.BackColor = System.Drawing.Color.DarkGray;
+            this.StartButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.StartButton.Location = new System.Drawing.Point(46, 425);
+            this.StartButton.Name = "StartButton";
+            this.StartButton.Size = new System.Drawing.Size(141, 30);
+            this.StartButton.TabIndex = 3;
+            this.StartButton.Text = "Start new order";
+            this.StartButton.UseVisualStyleBackColor = false;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
-            // button3
+            // OpenSavedbutton
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(260, 425);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 30);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "START ORDER";
-            this.button3.UseVisualStyleBackColor = false;
+            this.OpenSavedbutton.BackColor = System.Drawing.Color.DarkGray;
+            this.OpenSavedbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.OpenSavedbutton.Location = new System.Drawing.Point(231, 425);
+            this.OpenSavedbutton.Name = "OpenSavedbutton";
+            this.OpenSavedbutton.Size = new System.Drawing.Size(184, 30);
+            this.OpenSavedbutton.TabIndex = 4;
+            this.OpenSavedbutton.Text = "Open a Saved Order";
+            this.OpenSavedbutton.UseVisualStyleBackColor = false;
+            this.OpenSavedbutton.Click += new System.EventHandler(this.OpenSavedbutton_Click);
             // 
             // headLabel
             // 
             this.headLabel.AutoSize = true;
-            this.headLabel.Location = new System.Drawing.Point(201, 45);
+            this.headLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headLabel.Location = new System.Drawing.Point(132, 31);
             this.headLabel.Name = "headLabel";
-            this.headLabel.Size = new System.Drawing.Size(212, 20);
+            this.headLabel.Size = new System.Drawing.Size(353, 29);
             this.headLabel.TabIndex = 5;
             this.headLabel.Text = "Order your Computer Today !";
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(136, 152);
+            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
+            this.pictureBox.Location = new System.Drawing.Point(170, 106);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(326, 251);
+            this.pictureBox.Size = new System.Drawing.Size(303, 251);
             this.pictureBox.TabIndex = 6;
             this.pictureBox.TabStop = false;
             // 
@@ -90,13 +96,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(645, 526);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.headLabel);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.OpenSavedbutton);
+            this.Controls.Add(this.StartButton);
+            this.Controls.Add(this.ExitButton);
             this.Name = "StartForm";
             this.Text = "StartForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
@@ -107,9 +114,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button startButton;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button StartButton;
+        private System.Windows.Forms.Button OpenSavedbutton;
         private System.Windows.Forms.Label headLabel;
         private System.Windows.Forms.PictureBox pictureBox;
     }

@@ -39,7 +39,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.Info;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(50, 31);
+            this.label1.Location = new System.Drawing.Point(140, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(481, 58);
             this.label1.TabIndex = 0;
@@ -48,19 +48,21 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 3;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // StartForm
+            // SplashForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImage = global::Dollar_Computers.Properties.Resources.images;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(583, 460);
+            this.ClientSize = new System.Drawing.Size(764, 623);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
-            this.Name = "StartForm";
+            this.Name = "SplashForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
