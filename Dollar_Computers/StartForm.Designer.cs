@@ -105,6 +105,7 @@
             this.Controls.Add(this.StartButton);
             this.Controls.Add(this.ExitButton);
             this.Name = "StartForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
