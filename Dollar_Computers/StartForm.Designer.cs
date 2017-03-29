@@ -43,7 +43,7 @@
             this.ExitButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ExitButton.Location = new System.Drawing.Point(460, 425);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(141, 30);
+            this.ExitButton.Size = new System.Drawing.Size(141, 37);
             this.ExitButton.TabIndex = 2;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
@@ -55,7 +55,7 @@
             this.StartButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.StartButton.Location = new System.Drawing.Point(46, 425);
             this.StartButton.Name = "StartButton";
-            this.StartButton.Size = new System.Drawing.Size(141, 30);
+            this.StartButton.Size = new System.Drawing.Size(141, 37);
             this.StartButton.TabIndex = 3;
             this.StartButton.Text = "Start new order";
             this.StartButton.UseVisualStyleBackColor = false;
@@ -67,7 +67,7 @@
             this.OpenSavedbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.OpenSavedbutton.Location = new System.Drawing.Point(231, 425);
             this.OpenSavedbutton.Name = "OpenSavedbutton";
-            this.OpenSavedbutton.Size = new System.Drawing.Size(184, 30);
+            this.OpenSavedbutton.Size = new System.Drawing.Size(184, 37);
             this.OpenSavedbutton.TabIndex = 4;
             this.OpenSavedbutton.Text = "Open a Saved Order";
             this.OpenSavedbutton.UseVisualStyleBackColor = false;
