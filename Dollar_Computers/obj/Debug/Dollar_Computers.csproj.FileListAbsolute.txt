@@ -11,3 +11,7 @@ C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Compute
 C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.ProductInfoForm.resources
 C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.SelectForm.resources
 C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\obj\Debug\Dollar_Computers.SplashForm.resources
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\EntityFramework.dll
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\EntityFramework.xml
+C:\Users\amand\Documents\Sem 3\Rapid Application\Dollar_Computers\Dollar_Computers\bin\Debug\EntityFramework.SqlServer.xml

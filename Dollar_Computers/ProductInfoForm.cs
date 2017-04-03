@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Dollar_Computers.Models;
+
 namespace Dollar_Computers
 {
     public partial class ProductInfoForm : Form
@@ -20,6 +22,34 @@ namespace Dollar_Computers
         private void textBox11_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void ProductInfoForm_Load(object sender, EventArgs e)
+        {
+            ProductContent db = new ProductContent();
+
+            var ProductContent = (from product in db.PRODUCTS
+                                  select product).FirstOrDefault();
         }
     }
 }
